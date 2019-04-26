@@ -1,0 +1,26 @@
+{
+  "name": "bandwidth",
+  "version": "1.0.0",
+  "description": "This is the source code that inspired this project. It will allow connections to be made through Node.js, JavaScript and Typescript to interact and manage Mikrotik routers.\r <https://www.npmjs.com/package/node-routeros>",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "mysql": "^2.17.1",
+    "routeros-client": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keschae/bandwidth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keschae/bandwidth/issues"
+  },
+  "homepage": "https://github.com/keschae/bandwidth#readme"
+}

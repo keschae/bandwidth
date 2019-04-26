@@ -1,0 +1,44 @@
+
+
+Load IP address list  from SQL database
+
+Check system time
+
+If start of daily .
+    Set variable "first period of day" =  true 
+
+Also start of new month set first day of new month equals true
+    
+Begin loop to process IP addresses
+
+    if (first period of day)Then 
+            Set current uploaded and downloaded KB PS for that IP address to array to be saved
+
+            Calculate difference between current total uploaded in total downloaded and since beginning of day total uploads's total downloaded
+
+            if (total uploaded for total downloaded so far today greater than daily Download  limit tier 1)
+                Then find that IDs queue in microtech and set it according to tier 1 limit for that IP address found in IP address MySQL record
+                Send an email to end-user to announce this speed change
+                send an text message to end-user to announce speed change
+                log 2 MySQL Q_change_log
+
+            If (intraday reporting period = true)
+                v cc-Send email to client reporting total daily usage and monthly usage so <i class="fa fa-ra
+            // 9 AM, 12 noon, 6 PM, 9 PM
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <i class="fas fa-tumblr-square    "></i>
+
+
